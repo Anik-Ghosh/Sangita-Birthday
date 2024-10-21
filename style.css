@@ -31,7 +31,7 @@ body {
     background: white;
     border-radius: 30px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 15px;
     width: 350px;
     max-width: 90%;
     position: absolute;
@@ -41,14 +41,20 @@ body {
     margin: 0 auto;
 }
 
-#countdown-container h1, #birthday-message-container h1 {
-    font-size: 26px;
+#countdown-container h1 {
+    font-size: 19px;
+    color: #ff7f7f;
+    margin-bottom: 20px;
+}
+
+#birthday-message-container h1 {
+    font-size: 24px;
     color: #ff7f7f;
     margin-bottom: 20px;
 }
 
 #countdown {
-    font-size: 48px; /* Larger countdown font */
+    font-size: 49px; /* Larger countdown font */
     color: #ff3e6c;
     font-weight: bold;
     background-color: #ffebf3;
@@ -63,7 +69,7 @@ body {
 
 #birthday-message-container p {
     color: #ff66a3;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
